@@ -1,0 +1,9 @@
+#!name=节点 IP 检测
+#!desc=长按节点 -> IP 检测：显示当前节点的出口 IP、国家/城市、运营商/ASN，并判断是否干净（机房/代理会标出来）。数据来自 ipinfo.io 和 ip-api.com，无需 token。
+#!author=楠楠
+#!icon=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
+#!tag=IP,节点检测,工具
+#!date=2026-11-24
+
+[Script]
+event-interaction https://muse.ai/files/1359916287215218/1450162046743194/hxxl2dv81qc15i76qn9wxlzx/ip-check.js, tag=IP 检测, img-url=https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png, enabled=true
